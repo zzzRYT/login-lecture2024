@@ -1,6 +1,6 @@
 branchName: "/${issue.title[0,25]}/#${issue.number}"
 gitSafeReplacementChar: "_"
-defaultBranch: "develop"
+defaultBranch: "main"
 autoCloseIssue: true
 commentMessage: "Branch ${branchName} created for issue: ${issue.title}"
 branches:
