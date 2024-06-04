@@ -1,6 +1,10 @@
 branchName: '/${issue.title[0,25]}/#${issue.number}'
 gitSafeReplacementChar: '_'
 autoCloseIssue: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
+copyIssueProjectsToPR: true
+copyIssueMilestoneToPR: true
 commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'
 branches:
   - label: add
